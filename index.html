@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="input-area">
+      <input id="add-text" placeholder="To Doを入力してください" />
+      <button id="add-button">追加</button>
+    </div>
+
+    <div class="imcomplete-area">
+      <p class="title">未完のToDo</p>
+      <ul id="incomplete-list">
+        <!-- ここにJSでDOM追加する -->
+      </ul>
+    </div>
+
+    <div class="complate-area">
+      <p class="title">完了したToDo</p>
+      <ul id="complete-list">
+        <!-- ここにJSでDOM作成する -->
+      </ul>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
